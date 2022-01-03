@@ -34,11 +34,6 @@ namespace SlatePOV
                 _camera = _camObj.AddComponent<Camera>();
                 _camera.enabled = false;
                 _owCamera = _camObj.AddComponent<OWCamera>();
-                // _camObj.AddComponent<BoxCollider>();
-                // _camObj.AddComponent<OWCollider>();
-                // SectorDetector anchor = _camObj.AddComponent<SectorDetector>();
-                // GameObject.Find("Sector_StartingCamp").GetComponent<Sector>().TrackDetector(anchor);
-                // _camObj.layer = LayerMask.NameToLayer("AdvancedDetector");
                 _owCamera.renderSkybox = true;
                 _setupBuffer = true;
             };
